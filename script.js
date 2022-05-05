@@ -5,12 +5,9 @@ console.log(icone);
 //la div modal
 const modal = document.querySelector(".modal");
 console.log(modal);
+
 icone.addEventListener("click", function(){
     console.log("icone cliquée");
-});
-icone.addEventListener("click",function(){
-    console.log("icone cliquée");
     modal.classList.toggle("change-modal");
+    icone.classList.toggle("fa-times"); //fa-times
 });
-//fa-times
-icone.classList.toggle("fa-times");
